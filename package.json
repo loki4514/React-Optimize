@@ -1,0 +1,24 @@
+{
+  "name": "react-optimize",
+  "version": "1.0.0",
+  "description": "\"this is react in depth understand the concepts till i perfect in react\" ",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loki4514/React-Optimize.git"
+  },
+  "keywords": [
+    "React",
+    "React",
+    "Hooks"
+  ],
+  "author": "AARON",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loki4514/React-Optimize/issues"
+  },
+  "homepage": "https://github.com/loki4514/React-Optimize#readme"
+}
