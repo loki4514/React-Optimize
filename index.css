@@ -1,3 +1,88 @@
 h1 {
     color: red;
 }
+
+.header {
+    display: flex;
+    justify-content: space-between; /* Ensures items are spread out */
+    align-items: center; /* Vertically centers the items */
+    border: 1px solid black;
+    padding: 10px; /* Adds some padding for better spacing */
+}
+
+.LogoContainer {
+    display: flex;
+    align-items: center; /* Vertically centers the image */
+}
+
+.LogoContainer img {
+    width: 150px;
+    height: 150px;
+}
+
+.nav-items {
+    display: flex; /* Ensures the nav items are displayed in a row */
+}
+
+.nav-items ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+}
+
+.nav-items ul li {
+    padding: 10px;
+    margin: 0 10px; /* Adjusts the margin to be horizontal only */
+    text-decoration: none;
+}
+
+
+.res-card {
+    width: 250px;
+    /* height: 350px; */
+    margin: 2px;
+    padding: 2px;
+    border: 1px solid black;
+    
+}
+
+.res-card:hover {
+    border: 2px solid orange;
+}
+.Search {
+    padding: 30px;
+}
+
+.res-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.res-card img{
+    width : 80%;
+    height: 150px;
+    padding : 5px;
+}
+.filter-btn {
+    cursor: pointer;
+    margin: 10px;
+}
+
+.shimmer-container {
+    display: flex;
+}
+.shimmer-cards {
+    width: 200px;
+    height: 400px;
+    background-color: grey;
+    margin: 20px;
+}
+
+.login{
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.filter {
+    display: flex;
+}
